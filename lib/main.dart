@@ -16,28 +16,27 @@ class Home extends StatelessWidget {
         backgroundColor: const Color.fromARGB(255, 239, 175, 64),
       ),
       body: const Center(
-          //   child: Text("সহজ রোগ নিবারন",
-          //       style: TextStyle(
-          //           fontFamily: 'Bengali',
-          //           fontSize: 40.0,
-          //           fontWeight: FontWeight.bold,
-          //           letterSpacing: 2.5,
-          //           color: Color.fromARGB(255, 190, 95, 0))),
-          // _________________________________________________
+        //   child: Text("সহজ রোগ নিবারন",
+        //       style: TextStyle(
+        //           fontFamily: 'Bengali',
+        //           fontSize: 40.0,
+        //           fontWeight: FontWeight.bold,
+        //           letterSpacing: 2.5,
+        //           color: Color.fromARGB(255, 190, 95, 0))),
+        // _________________________________________________
 
-            child: Image(
-                image: NetworkImage(
-                    'https://i.pinimg.com/564x/b5/89/f3/b589f3ca14d7ec4fc9e497be83f4cf5f.jpg')),
+        child: Image(
+            image: NetworkImage(
+                'https://i.pinimg.com/564x/b5/89/f3/b589f3ca14d7ec4fc9e497be83f4cf5f.jpg')),
 
-          // ______________________________________________________
+        // ______________________________________________________
 
-          //     child: TextButton(
-          //   onPressed: () {
-          //     print("you pressed back");
-          //   },
-          // )
-
-          ),
+        //     child: TextButton(
+        //   onPressed: () {
+        //     print("you pressed back");
+        //   },
+        // )
+      ),
       floatingActionButton: FloatingActionButton(
         // ignore: avoid_print
         onPressed: () => print("Pressed\n"),
